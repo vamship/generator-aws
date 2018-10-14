@@ -1,0 +1,18 @@
+{
+  "default": {
+    "log": {
+      "level": "info"
+    }
+  },
+  "development": {
+    "log": {
+      "level": "trace"
+    }
+  },
+  "test": {
+    "log": {
+      "level": "trace"
+    }
+  },
+  "production": {}
+}

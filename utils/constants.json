@@ -1,0 +1,7 @@
+{
+    "SEPARATOR":
+        "--------------------------------------------------------------------------------",
+    "GENERATOR_NAME": "@vamship/aws",
+    "SUB_GEN_MICROSERVICE": "microservice",
+    "SUB_GEN_LAMBDA": "lambda"
+}
