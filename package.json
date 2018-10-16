@@ -1,6 +1,6 @@
 {
     "name": "@vamship/generator-aws",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Yeoman generator for AWS projects",
     "homepage": "",
     "author": {
@@ -8,7 +8,10 @@
         "email": "vamshi.ponnapalli@gmail.com",
         "url": ""
     },
-    "files": ["generators", "utils"],
+    "files": [
+        "generators",
+        "utils"
+    ],
     "main": "generators/index.js",
     "keywords": [
         "generators",
@@ -47,8 +50,13 @@
     },
     "lint-staged": {
         "linters": {
-            "*.js": ["eslint --fix", "git add"],
-            "*.json": ["git add"]
+            "*.js": [
+                "eslint --fix",
+                "git add"
+            ],
+            "*.json": [
+                "git add"
+            ]
         },
         "ignore": [
             "generators/microservice/templates/package.json",
@@ -56,7 +64,10 @@
         ]
     },
     "eslintConfig": {
-        "extends": ["xo", "prettier"],
+        "extends": [
+            "xo",
+            "prettier"
+        ],
         "env": {
             "jest": true,
             "node": true
@@ -70,7 +81,9 @@
                 }
             ]
         },
-        "plugins": ["prettier"]
+        "plugins": [
+            "prettier"
+        ]
     },
     "scripts": {
         "pretest": "eslint .",
