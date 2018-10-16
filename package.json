@@ -1,6 +1,6 @@
 {
     "name": "@vamship/generator-aws",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Yeoman generator for AWS projects",
     "homepage": "",
     "author": {
